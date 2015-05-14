@@ -31,6 +31,11 @@ We'll mainly evaluate the compliance with the technological requirements, the co
 
 * Use a JSON with dummy data for each follow, assuming that the data for the list of follows came from a Followprice API.
 
+#### Delivering
+
+To deliver the solution you must fork this project, develop the solution in this folder and make a pull request when you think it is complete.
+
+
 [React]:https://facebook.github.io/react/
 [Flux]:https://facebook.github.io/flux/docs/overview.html
 [ReFlux]:https://github.com/spoike/refluxjs
