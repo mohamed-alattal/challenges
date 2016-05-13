@@ -12,6 +12,8 @@ For answer this need you may build a reusable (the same component should be reus
 }
 ```
 
+[image]
+
 ## Background information
 
 ## Other Requirements
