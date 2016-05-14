@@ -4,7 +4,9 @@ One of Followprice's main features for stores is the possibility of sending dire
 For this challenge Followprice wants you to extend the existing feature to be able to send directed campaigns by product.
 
 ##Problem
-*Use case*: FNAC wants to make a campaign for the "FIFA2016" that has 124 followers waiting for a price drop and the next edition will released soon, so its the perfect time, probably the last opportunity to convert some followers into buyers. At this moment its only possible to create a campaign for "video games" which is useless for this case.
+*Example*:
+
+FNAC wants to make a campaign for the "FIFA2016" that has 124 followers waiting for a price drop and the next edition will released soon, so its the perfect time, probably the last opportunity to convert some followers into buyers. At this moment its only possible to create a campaign for "video games" which is useless for this case.
 
 Take in consideration:
 * Use your UX/UI skills to find the best way to make it easy to send direct campaigns by category or product whenever the user wants.
