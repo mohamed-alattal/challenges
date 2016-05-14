@@ -49,17 +49,19 @@ Feel free to explore the Followprice Store App and make your challenge fit bette
 * Login: please ask us
 
 ## Other Requirements
-Altough our challenges are technology agnostic and you are free to use whatever you want, we strongly recommend to use the techs we use on our stack and solutions with it will be valued.
+Altough our challenges are __technology agnostic__ and you are free to use whatever you want, we suggest to use the technologies we already use on our stack. Solutions built with it may be valued.
 
-Recommended technologies:
+In this challenge we recomend you to create a simple __React__ Component (or more than one if you think it would make sense). Using React+Redux would be a great bonus.
+
+Our technologies:
 - HTML5
 - [SASS](http://sass-lang.com/)
 - [Bootstrap](http://getbootstrap.com/) 
-- Javascript (if [ES6](http://es6-features.org/) bonus)
-- [React](https://facebook.github.io/react/) (bonus)
-- [Redux](http://redux.js.org/index.html) (bonus)
+- Javascript ([ES6](http://es6-features.org/))
+- [D3](https://d3js.org/) ([reactd3](http://www.reactd3.org/))
+- [React](https://facebook.github.io/react/) 
+- [Redux](http://redux.js.org/index.html) 
 
-In this challenge we recomend you to create a simple __React__ Component (or more than one if you think it would make sense). Using React+Redux would be a great bonus.
 
 Usefull links:
 - [CSS & SASS guidelines](https://github.com/airbnb/css)
