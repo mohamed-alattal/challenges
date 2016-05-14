@@ -17,3 +17,22 @@ For answer this need you may build a reusable (the same component should be reus
 ## Background information
 
 ## Other Requirements
+Altough our challenges are technology agnostic and you are free to use whatever you want, we strongly recommend to use the techs we use on our stack and solutions with it will be valued.
+
+Recommended technologies:
+- HTML5
+- [SASS](http://sass-lang.com/)
+- [Bootstrap](http://getbootstrap.com/) 
+- Javascript (if [ES6](http://es6-features.org/) bonus)
+- [D3](https://d3js.org/) (if [reactd3](http://www.reactd3.org/) bonus)
+- [React](https://facebook.github.io/react/) (bonus)
+- [Redux](http://redux.js.org/index.html) (bonus)
+
+In this challenge we recomend you to create a simple __React__ Component (or more than one if you think it would make sense) and make use of __reactd3__ to build the graph. Using React+Redux would be a great bonus.
+
+Usefull links:
+- [CSS & SASS guidelines](https://github.com/airbnb/css)
+- [Javascript guidelines](https://github.com/airbnb/javascript)
+- [Why react?](https://facebook.github.io/react/docs/why-react.html)
+- [Redux documentation](http://redux.js.org/index.html)
+- [Learn redux by Dan Abramov](https://egghead.io/lessons/javascript-redux-the-single-immutable-state-tree)
