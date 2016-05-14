@@ -62,6 +62,8 @@ Recommended technologies:
 In this challenge we recomend you to create a simple __React__ Component (or more than one if you think it would make sense). Using React+Redux would be a great bonus.
 
 Usefull links:
+- [CSS & SASS guidelines](https://github.com/airbnb/css)
+- [Javascript guidelines](https://github.com/airbnb/javascript)
 - [Why react?](https://facebook.github.io/react/docs/why-react.html)
 - [Redux documentation](http://redux.js.org/index.html)
 - [Learn redux by Dan Abramov](https://egghead.io/lessons/javascript-redux-the-single-immutable-state-tree)
