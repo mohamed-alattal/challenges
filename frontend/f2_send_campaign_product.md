@@ -31,7 +31,7 @@ The form fields are:
 * Limit of times user can use the code *(optional)*
 * Footer notes *(optional)*
 
-An campaign must generate a form data to send like the following one:
+The actual form data from a created campaign is:
 ```
   title:Audio e Cacifos 10
   code:AUDIOCACI2016
@@ -44,6 +44,7 @@ An campaign must generate a form data to send like the following one:
   footer: 
 ```
 
+*Note: Feel free to change this structure to fit a better solution*
 
 
 ## Other Requirements
