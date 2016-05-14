@@ -52,10 +52,10 @@ Altough our challenges are technology agnostic and you are free to use whatever 
 Recommended technologies:
 - HTML5
 - SASS
-- Javascript
-- Grunt (bónus)
-- React (bónus)
-- Redux (bónus)
+- Bootstrap 
+- Javascript (if ES6 bonus)
+- React (bonus)
+- Redux (bonus)
 
 In this challenge we recomend you to create a simple __React__ Component (or more than one if you think it would make sense). Using React+Redux would be a great bonus.
 
