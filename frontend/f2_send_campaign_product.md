@@ -9,7 +9,7 @@ For this challenge Followprice wants you to extend the existing feature to be ab
 FNAC wants to make a campaign for the "FIFA2016" that has 124 followers waiting for a price drop and the next edition will released soon, so its the perfect time, probably the last opportunity to convert some followers into buyers. At this moment its only possible to create a campaign for "video games" which is useless for this case.
 
 Take in consideration:
-* Use your UX/UI skills to find the best way to make it easy to send direct campaigns by category or product whenever the user wants.
+* Use your UX/UI skills to find the best way to make it easy to send direct campaigns by category or product whenever the user wants. Take your time on this, because this is the biggest challenge in this problem.
 * It has to be possible to send to multiple specific products (example: "FIFA2016" and "PES2016").
 * Since sending a campaign is something huge, there is the need of a confirmation. At the moment we use a modal to confirm the intentio of the user sending that campaign with that data.
 * Frontend form validation is needed. Proper feedback messages are valued.
