@@ -29,7 +29,7 @@ The form fields are:
 * Limit of times user can use the code *(optional)*
 * Footer notes *(optional)*
 
-An campaign must generate an form data to send like the following one:
+An campaign must generate a form data to send like the following one:
 ```
   title:Audio e Cacifos 10
   code:AUDIOCACI2016
