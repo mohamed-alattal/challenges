@@ -29,7 +29,7 @@ The form fields are:
 * Limit of times user can use the code *(optional)*
 * Footer notes *(optional)*
 
-The actual form data from a created campaign is:
+The actual form data form a created campaign is:
 ```
   title:Audio e Cacifos 10
   code:AUDIOCACI2016
