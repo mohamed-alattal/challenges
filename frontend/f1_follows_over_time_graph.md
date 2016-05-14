@@ -1,20 +1,49 @@
-# Follows over time graph
+#(F1) Follows Over Time Graph
 A store with a followprice button has access to a store application where among other stuff they can access a simple dashboard with useful information (number of followers, the most followed products, etc). 
 An useful insight for stores is the possibility to check the progress of the number of follows of their products.
 
 ## The Problem
-For answer this need you may build a reusable (the same component should be reused to show the progress of other things, like the number of notifications, referrals, etc) graph where using a given dataset may result into a nice graphic which can be shown by day, week, month.
+*Example:*
+
+Eglobal sent a newsletter for its whole subscribers announcing the Followprice feature. After this marketing action they want to know if the number of the follows increased and if is it worth to make this kind of publicity.
+
+Take in consideration:
+- The graph must show the number of follows during the time.
+- The built component must be reusable for other data (example: progress of sent notifications over time)
+- Must be possible to see different views of the progress: daily, weekly and monthly.
+- You may use [json server](https://github.com/typicode/json-server) to simulate an API call.
+- Automated tests are valued.
 
 
+## Background information
+
+Example of a received data:
 ```
 {
-  teste: 1
+  follows:[
+    {
+      date: "15/04/2016",
+      count: 4
+    },
+    {
+      date: "14/04/2016",
+      count: 9
+    },
+    {
+      date: "13/04/2016",
+      count: 2
+    },
+    {
+      date: "10/04/2016",
+      count: 14
+    }
+  ]
 }
 ```
 
-[image]
-
-## Background information
+Feel free to explore the Followprice Store App and make your challenge fit better into it:
+* Store app URL: http://stage.followprice.co:8080/
+* Login: please ask us
 
 ## Other Requirements
 Altough our challenges are technology agnostic and you are free to use whatever you want, we strongly recommend to use the techs we use on our stack and solutions with it will be valued.
