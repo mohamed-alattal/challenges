@@ -15,9 +15,6 @@ Take in consideration:
 * Frontend form validation is needed. Proper feedback messages are valued.
 * In the end, an AJAX call with the campaign data should be sent to nowhere.
 
-Feel free to explore the Followprice Store App and make your challenge fit better into it:
-* Store app URL: http://stage.followprice.co:8080/
-* Login: please ask us
 
 ##Background Information
 
@@ -46,6 +43,9 @@ The actual form data from a created campaign is:
 
 *Note: Feel free to change this structure to fit a better solution*
 
+Feel free to explore the Followprice Store App and make your challenge fit better into it:
+* Store app URL: http://stage.followprice.co:8080/
+* Login: please ask us
 
 ## Other Requirements
 Altough our challenges are technology agnostic and you are free to use whatever you want, we strongly recommend to use the techs we use on our stack and solutions with it will be valued.
