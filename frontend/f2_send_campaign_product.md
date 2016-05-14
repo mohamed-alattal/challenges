@@ -14,6 +14,7 @@ Take in consideration:
 * Since sending a campaign is something huge, there is the need of a confirmation. At the moment we use a modal to confirm the intentio of the user sending that campaign with that data.
 * Frontend form validation is needed. Proper feedback messages are valued.
 * In the end, an AJAX call with the campaign data should be sent to nowhere.
+* Automatic tests are valued.
 
 
 ##Background Information
@@ -52,15 +53,16 @@ Altough our challenges are technology agnostic and you are free to use whatever 
 
 Recommended technologies:
 - HTML5
-- SASS
-- Bootstrap 
-- Javascript (if ES6 bonus)
-- React (bonus)
-- Redux (bonus)
+- [SASS](http://sass-lang.com/)
+- [Bootstrap](http://getbootstrap.com/) 
+- Javascript (if [ES6](http://es6-features.org/) bonus)
+- [React](https://facebook.github.io/react/) (bonus)
+- [Redux](http://redux.js.org/index.html) (bonus)
 
 In this challenge we recomend you to create a simple __React__ Component (or more than one if you think it would make sense). Using React+Redux would be a great bonus.
 
 Usefull links:
 - [Why react?](https://facebook.github.io/react/docs/why-react.html)
+- [Redux documentation](http://redux.js.org/index.html)
 - [Learn redux by Dan Abramov](https://egghead.io/lessons/javascript-redux-the-single-immutable-state-tree)
 
