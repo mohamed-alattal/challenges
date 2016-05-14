@@ -47,6 +47,19 @@ An campaign must generate a form data to send like the following one:
 
 
 ## Other Requirements
-Altough our challenges are technology agnostic and you are free to use whatever you want, we strongly recommend to use the techs we use on our stack and solutions with it will be valued
+Altough our challenges are technology agnostic and you are free to use whatever you want, we strongly recommend to use the techs we use on our stack and solutions with it will be valued.
 
-In this challenge we recomend you to create a simple React Component (or more than one if you think it would make sense)
+Recommended technologies:
+- HTML5
+- SASS
+- Javascript
+- Grunt (bónus)
+- React (bónus)
+- Redux (bónus)
+
+In this challenge we recomend you to create a simple __React__ Component (or more than one if you think it would make sense). Using React+Redux would be a great bonus.
+
+Usefull links:
+- [Why react?](https://facebook.github.io/react/docs/why-react.html)
+- [Learn redux by Dan Abramov](https://egghead.io/lessons/javascript-redux-the-single-immutable-state-tree)
+
