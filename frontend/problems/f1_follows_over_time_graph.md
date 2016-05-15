@@ -9,9 +9,10 @@ Eglobal sent a newsletter for its whole subscribers announcing the Followprice f
 
 Take in consideration:
 - The graph must show the number of follows during the time.
-- The built component must be reusable for other data (example: progress of sent notifications over time)
-- Must be possible to see different views of the progress: daily, weekly and monthly.
 - You may use [json server](https://github.com/typicode/json-server) to simulate an API call.
+- In Background Information you have a example of a received data. If you think there would be a better data structure, please feel free to suggest.
+- The built component must be reusable for other data (example: progress referrals over time)
+- Must be possible to see different views of the progress: daily, weekly and monthly.
 - Automated tests are valued.
 
 
