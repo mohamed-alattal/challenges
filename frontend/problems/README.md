@@ -1,5 +1,5 @@
 #Problems
-
+If you didn't read the main [read me](https://github.com/Followprice/challenges/blob/master/frontend/README.md), please do it first.
 
 ##What we value
 1. The thought process behind the problem solution and your critical thinking. Explain us your decisions and why your solution is the best one or if isn't how could be better?
