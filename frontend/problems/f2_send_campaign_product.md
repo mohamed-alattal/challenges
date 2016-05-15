@@ -10,6 +10,7 @@ FNAC wants to make a campaign for the "FIFA2016" that has 124 followers waiting 
 
 Take in consideration:
 * Use your UX/UI skills to find the best way to make it easy to send direct campaigns by category or product whenever the user wants. Take your time on this, because this is the biggest challenge in this problem.
+* Somehow you have to receive the available categories and products. The data structure is up to you. You can use [json server](https://github.com/typicode/json-server) to simulate API calls.
 * It has to be possible to send to multiple specific products (example: "FIFA2016" and "PES2016").
 * Since sending a campaign is something huge, there is the need of a confirmation. At the moment we use a modal to confirm the intentio of the user sending that campaign with that data.
 * Frontend form validation is needed. Proper feedback messages are valued.
