@@ -5,7 +5,7 @@ An useful insight for stores is the possibility to check the progress of the num
 ## The Problem
 *Example:*
 
-Eglobal sent a newsletter for its whole subscribers announcing the Followprice feature. After this marketing action they want to know if the number of the follows increased and if is it worth to make this kind of publicity.
+OnlineStoreX sent a newsletter for its whole subscribers announcing the Followprice feature. After this marketing action they want to know if the number of the follows increased and if is it worth to make this kind of publicity.
 
 Take in consideration:
 - The graph must show the number of follows during the time.
