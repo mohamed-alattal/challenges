@@ -19,4 +19,4 @@ During the process, you can talk to us. Explain your doubts, say what are you th
 3. Make your solution
 4. Make a pull request of your solution to the repository
 
-If you never worked with GIT you can ask us for some help on how to do the mentioned procedure
+If you never worked with GIT you can see [this link](https://help.github.com/articles/fork-a-repo/) or ask us for some help on how to do the mentioned procedure
