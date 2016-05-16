@@ -14,5 +14,5 @@ This is only a way for us to know you better (how you work, how you communicate,
 During the process, you can talk to us. Explain your doubts, say what are you thinking to do to solve the problem. 
 
 ##Next steps:
-1. Read the [list of frontend problems](https://github.com/Followprice/challenges/blob/master/frontend/problems/README.md) and choose one to solve.
+1. Read the [list of frontend problems](https://github.com/Followprice/challenges/blob/master/frontend/problems) and choose one to solve.
 2. -todo-
