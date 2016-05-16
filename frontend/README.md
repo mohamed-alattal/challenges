@@ -5,7 +5,7 @@ If you are here it's most likely that we already have some knowledge about you, 
 
 This is not a final exam. There are not right or wrong solutions. 
 
-The challenges try to be more technology and methodology agnostic possible, you are free to use whatever you want in the way you want, although we suggest you to use technologies that we already use in our stack. 
+The challenges try to be the most technology and methodology agnostic possible, you are free to use whatever you want in the way you want, although we suggest you to use technologies that we already use in our stack. 
 
 Try to use a language that our dev team is familiar with: python, java, javascript, c, c++. If you want to use another language please ask us first.
 
