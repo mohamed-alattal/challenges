@@ -15,4 +15,8 @@ During the process, you can talk to us. Explain your doubts, say what are you th
 
 ##Next steps:
 1. Read the [list of frontend problems](https://github.com/Followprice/challenges/blob/master/frontend/problems) and choose one to solve.
-2. -todo-
+2. Fork the repository
+3. Make your solution
+4. Make a pull request of your solution to the repository
+
+If you never worked with GIT you can ask us for some help on how to do the mentioned procedure
