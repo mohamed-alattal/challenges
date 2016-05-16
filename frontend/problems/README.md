@@ -2,7 +2,7 @@
 If you didn't read the main [read me](https://github.com/Followprice/challenges/blob/master/frontend/README.md), please do it first.
 
 ##What we value
-1. The thought process behind the problem solution and your critical thinking. Explain us your decisions and why your solution is the best one or if isn't how could be better?
+1. The thought process behind the problem solution and your critical thinking. Explain us your decisions and why your solution is the best one or if it isn't how could it be better?
 2. The UI/UX you put into it. Make the users' life easy. 
 3. The quality of your code. Keep your code clean and maintainable.
 4. If you are used to TDD, show us, it's a bonus.
