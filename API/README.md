@@ -8,9 +8,9 @@
 
 * createdb followprice_challenge
 
-* psql followprice_challenge -f API/create_tables.sql
+* psql followprice_challenge -f create_tables.sql
 
-* psql followprice_challenge -f API/tables_test_data.sql
+* psql followprice_challenge -f tables_test_data.sql
 
 ## The DB structure
 
