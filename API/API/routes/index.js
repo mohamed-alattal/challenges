@@ -20,6 +20,7 @@ router.get('/', function(req, res, next) {
 router.post('/api/storeprice',function(req,res){
    var url= req.body.url;
    var price= req.body.price;
+   //checking the currency to set it ti EUR od USD
    var currency= (price[price.length-1]==='$')?'USD':'EUR';
   database.db().query('SELECT * FROM products WHERE url= $1',[url],function(err,result){
     if(err || result.rows.length==0) res.send('no data mach the url'+' '+result.rows.length+' '+err);
@@ -27,8 +28,7 @@ router.post('/api/storeprice',function(req,res){
     else{
 
     var pid= result.rows[0].id;
-
-    // here the element is inserted with a hardcoded id but it should be an autoi_increment field
+    // here the element is inserted with a hardcoded id but it should be an auto_increment field
     database.db().query('INSERT INTO prices VALUES ($1,$2,clock_timestamp(),$3,$4)',[1003,pid,parseFloat(price),currency],function(err,resu){
       if(err) res.send('insertion failed'+' '+err);
       else
@@ -39,10 +39,12 @@ router.post('/api/storeprice',function(req,res){
 });
 // endpoint for displaying list of products of a store
 router.get('/api/store/:url',function(req,res){
+  //first we get the store desired to get the store id
   database.db().query('select * from stores where url=$1',[req.params.url],function(err,result){
     if(err) res.send('no store matches that url');
     else{
       var sid= result.rows[0].id;
+      //search by the store id to get the products needed and their values
       database.db().query('select p.id,max(ps.value),min(ps.value),count(ps.value) as "count" from products p inner join prices ps ON (p.id=ps.products_id) where stores_id=$1 GROUP BY p.id',[sid],function(err,result){
         if(err) res.send('no products for this store');
         else{
@@ -58,11 +60,11 @@ router.get('/api/product/:url/:a/:b',function(req,res){
   var url=req.params.url;
   var lb= req.params.a;
   var hb= req.params.b;
-
+// a query to get the product id of the products with that url and ordering them by value then outputing with the desired values
   database.db().query('SELECT ps.products_id,ps.value,ps.currency FROM prices ps inner join products p on(ps.products_id=p.id) WHERE p.url=$1 ORDER BY ps.value',[url],function(err,result){
     if(err) res.send('there is no products with that id')
     else{
-      console.log(result.rows);
+    //  console.log(result.rows);
       var r=result.rows.slice(parseInt(lb),parseInt(hb)+1);
       res.send(r);
     }
