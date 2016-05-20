@@ -27,7 +27,7 @@ router.post('/api/storeprice',function(req,res){
     else{
 
     var pid= result.rows[0].id;
-  
+
     // here the element is inserted with a hardcoded id but it should be an autoi_increment field
     database.db().query('INSERT INTO prices VALUES ($1,$2,clock_timestamp(),$3,$4)',[1003,pid,parseFloat(price),currency],function(err,resu){
       if(err) res.send('insertion failed'+' '+err);
@@ -59,10 +59,12 @@ router.get('/api/product/:url/:a/:b',function(req,res){
   var lb= req.params.a;
   var hb= req.params.b;
 
-  database.db().query('SELECT ps.products_id,ps.value,ps.currency FROM prices ps inner join products p on(ps.products_id=p.id) WHERE p.url=$1',[url],function(err,result){
+  database.db().query('SELECT ps.products_id,ps.value,ps.currency FROM prices ps inner join products p on(ps.products_id=p.id) WHERE p.url=$1 ORDER BY ps.value',[url],function(err,result){
     if(err) res.send('there is no products with that id')
     else{
-      res.send(result.rows.slice(lb,hb+1));
+      console.log(result.rows);
+      var r=result.rows.slice(parseInt(lb),parseInt(hb)+1);
+      res.send(r);
     }
   });
 });
