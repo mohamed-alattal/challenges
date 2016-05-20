@@ -20,15 +20,16 @@ router.get('/', function(req, res, next) {
 router.post('/api/storeprice',function(req,res){
    var url= req.body.url;
    var price= req.body.price;
-
+   var currency= (price[price.length-1]==='$')?'USD':'EUR';
   database.db().query('SELECT * FROM products WHERE url= $1',[url],function(err,result){
     if(err || result.rows.length==0) res.send('no data mach the url'+' '+result.rows.length+' '+err);
 
     else{
 
     var pid= result.rows[0].id;
-    console.log(pid);
-    database.db().query('INSERT INTO prices VALUES ($1,$2,clock_timestamp(),$3,$4)',[1002,pid,parseFloat(price),price[price.length-1]],function(err,resu){
+  
+    // here the element is inserted with a hardcoded id but it should be an autoi_increment field
+    database.db().query('INSERT INTO prices VALUES ($1,$2,clock_timestamp(),$3,$4)',[1003,pid,parseFloat(price),currency],function(err,resu){
       if(err) res.send('insertion failed'+' '+err);
       else
       res.send('insertion successful');
@@ -52,5 +53,18 @@ router.get('/api/store/:url',function(req,res){
   });
 });
 
+//endpoint to get the prices between Ath price and the Bth price inclusive
+router.get('/api/product/:url/:a/:b',function(req,res){
+  var url=req.params.url;
+  var lb= req.params.a;
+  var hb= req.params.b;
+
+  database.db().query('SELECT ps.products_id,ps.value,ps.currency FROM prices ps inner join products p on(ps.products_id=p.id) WHERE p.url=$1',[url],function(err,result){
+    if(err) res.send('there is no products with that id')
+    else{
+      res.send(result.rows.slice(lb,hb+1));
+    }
+  });
+});
 
 module.exports = router;
